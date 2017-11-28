@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "Saga"
+    "name": "roon"
   },
   "urls": {
     "site": "https://HurricanKai.github.io/Blog",
     "hubpress": "https://hurricankai.github.io/Blog",
-    "theme": "//HurricanKai.github.io/Blog/themes/casper",
+    "theme": "//HurricanKai.github.io/Blog/themes/saga",
     "images": "https://HurricanKai.github.io/Blog/images"
   },
   "initialisationConfigComponent": {
