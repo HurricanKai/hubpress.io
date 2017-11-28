@@ -5,6 +5,22 @@
     "branch": "gh-pages"
   },
   "theme": {
-    "name": "Casper"
+    "name": "casper"
+  },
+  "urls": {
+    "site": "https://HurricanKai.github.io/Blog",
+    "hubpress": "https://hurricankai.github.io/Blog",
+    "theme": "//HurricanKai.github.io/Blog/themes/casper",
+    "images": "https://HurricanKai.github.io/Blog/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ]
   }
 }
