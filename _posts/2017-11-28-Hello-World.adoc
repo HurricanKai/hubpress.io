@@ -1,6 +1,5 @@
 = Hello World!
 :hp-tags: My First Blog
-:hp-image: images/covers/hello-world.png
 
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
 // :hp-image: /covers/cover.png
