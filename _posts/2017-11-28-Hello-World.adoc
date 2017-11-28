@@ -1,12 +1,12 @@
 = Hello World!
-:hp-tags: My First Blog, First, Blog
+:hp-tags: My First Blog
+:hp-image: images/covers/hello-world.png
 
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
 // :hp-image: /covers/cover.png
 // :published_at: 2019-01-31
 // :hp-tags: HubPress, Blog, Open_Source,
 // :hp-alt-title: My English Title
-:hp-image: images/covers/hello-world.png
 
 Its the 28.11.2017, 20:54.
 
