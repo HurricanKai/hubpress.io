@@ -1,0 +1,141 @@
+= C# For Beginners, or something like that.
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+:hp-tags: Tutorial, C#
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+
+Hi, so, you want to / are learning C#, also known as CSharp, or CS
+
+So first We need to understand the
+
+== Basic Structure of C#
+
+If you know C++ you may know this, even thought its not the same.
+
+First we got the
+
+=== Namespace
+
+```
+namespace HelloWorld
+{
+ //Other Stuff Here
+}
+```
+
+or
+```
+namespace HelloWorld { /*Other Stuff Here*/ }
+```
+
+as you can see C# doesnt cares about Lines, (Besides Comments).
+There isnt anything more to this so
+next, inside the namespace we have got the
+
+=== Class
+
+```
+[Access Mod] class <name> 
+{
+
+}
+```
+
+So, Thats All, just that, You Coud add the Access Modifier (or how you wanna call it), but thats optional. But we will come to that later.
+
+Next We have 3 Types. Fields & Properties first:
+
+=== Fields & Properties
+
+```
+[Access Mod] <type> MyProperty { get; set; }
+[Access Mod] <type> MyField;
+```
+
+Types are the Most Important Thing in Programming Realy, But ill explain them Later still.
+
+So these are nearly the same.
+The Field is actualy used to Store Your data, while The Property realy is used for Accesing it Outside your Class.
+
+`{ get; set; }` is only a shortcut. behind that is acutaly an function every time, so the next Thing in the Class:
+
+=== Functions
+
+```
+[Access Mod] [Function Mod] <type | void> <Function Name>([Parameters])
+{
+// Your Logic Here.
+}
+```
+
+This looks Realy Complicated i know, but [Function Mod] Is nearly Never Present.
+
+Parameters are basicaly Just and Field without Access Mod, seperated by Commas,
+
+Functions can be Called Like This:
+```
+static void Main()
+{
+    MyFunction();
+  
+    int i = MyFunctionWithReturn();
+    
+    MyFunctionWithArgs(0);
+}
+```
+
+What is all this? Well lets have a look Line-by-Line
+
+```
+static void Main()
+```
+
+That is, as you maybe have noticed, an function.
+Main is the Application Entry Point, so The Function Called when Starting The Programm, `static` just means it can be Called Without an Instance Ref (We will see that in detail later)
+
+`void` Means it Returns Nothing.
+
+so below:
+```
+MyFunction();
+```
+
+this Just Tells Our Programm to Run Anything inside `MyFunction()` the `;` ends the Line.
+
+*_Remark_*: *All* Logic Instructions Are Ended with an *';'*.
+
+```
+int i = MyFunctionWithReturn();
+```
+
+Represents a Function That Returns the Type `int` and how its read.
+
+Technicaly you dont have to store the Result in an _local variable_
+
+*_Remark_*: _local variables_ are just like fields, but only accesable inside the Function they are Definded in.
+
+```
+MyFunctionWithArgs(0);
+```
+
+This Represents a Function with Arguments. this Function takes an `int` as input, which then can be used inside the Function.
+
+Its also Possible to Input an Variable, Field or Property.
+
+And you can combine Returning & Arguments.
+
+```
+int i = GetI(i);
+```
+
+Wont Work because:
+
+a) the Name `i` is already taken, so the Variable Definition wont Work.
+
+b) its Not Possible to use an Undefined variable, which i is before its set by The Function `GetI(int i);` (Normaly an example with an int is named "i", just an common).
+
+So, you want to get Into it now?
+
+== Then Go to the Next Blog Post.
